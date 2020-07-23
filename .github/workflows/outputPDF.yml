@@ -26,16 +26,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    # Runs a single command using the runners shell
     - name: change directory
       run: cd edit
-    
-    # Runs a single command using the runners shell
     - name: output pdf
       run: npx md-to-pdf
-
-    # Runs a set of commands using the runners shell
     - uses: actions/upload-artifact@v2
       with:
         name: output-pdf
