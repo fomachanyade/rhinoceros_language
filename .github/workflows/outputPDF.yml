@@ -26,10 +26,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: change directory
-      run: cd edit
-    - name: output pdf
-      run: npx md-to-pdf
+    - name: output poem.md to pdf
+      run: npx md-to-pdf ./edit/poem.md
     - uses: actions/upload-artifact@v2
       with:
         name: output-pdf
