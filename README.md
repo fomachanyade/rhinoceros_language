@@ -3,7 +3,7 @@
 ### [詩](./edit/poem.md)
 ### [インストラクション](./edit/poem.md)
 ## pdf作成
-github actionsでpdfに出力しています。
+github actionsでpdfに出力しています。npmのmd-to-pdfを使用。
 出力したpdfはartifactに保存されます。
 参考
 - 「MarkdownをPDFに変換する「md-to-pdf」は痒いところに手が届く素敵ツール」
