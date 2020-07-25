@@ -1,3 +1,24 @@
+​---
+stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
+body_class: markdown-body
+pdf_options:
+  format: A4
+  margin: 10mm 10mm
+  displayHeaderFooter: true
+  headerTemplate: |-
+    <style>
+      section {
+        margin: 0 auto;
+        font-family: system-ui;
+        font-size: 11px;
+      }
+    </style>
+    <section>
+      <span>犀言語 概要</span>
+      <span>高谷 誉</span>
+    </section>
+---
+
 # 概要
 ## この戯曲は、４つのモノローグから構成されています。
 ### カプセルの章
