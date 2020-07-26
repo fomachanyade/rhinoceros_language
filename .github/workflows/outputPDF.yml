@@ -27,8 +27,14 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: output poem.md to pdf
-      run: npx md-to-pdf ./edit/poem.md
+      run: npx md-to-pdf ./edit/poem.md --config-file ./config/pdfConfig.js
     - uses: actions/upload-artifact@v2
       with:
         name: output-pdf
         path: ./edit/*.pdf
+    - name: output summary.md to pdf
+      run: npx md-to-pdf ./application/202008_AAF/summary.md --config-file ./config/
+    - uses: actions/upload-artifact@v2
+      with:
+        name: output-pdf
+        path: ./application/202008_AAF/*.pdf
