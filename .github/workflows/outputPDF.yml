@@ -33,7 +33,7 @@ jobs:
         name: output-pdf
         path: ./edit/*.pdf
     - name: output summary.md to pdf
-      run: npx md-to-pdf ./application/202008_AAF/summary.md --config-file ./config/
+      run: npx md-to-pdf ./application/202008_AAF/summary.md --config-file ./config/pdfConfig.js
     - uses: actions/upload-artifact@v2
       with:
         name: output-pdf
