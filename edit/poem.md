@@ -1,32 +1,3 @@
-
-​---
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
-body_class: markdown-body
-pdf_options:
-  format: A4
-  margin: 10mm 10mm
-  displayHeaderFooter: true
-  headerTemplate: |-
-    <style>
-      section {
-        margin: 0 auto;
-        font-family: system-ui;
-        font-size: 11px;
-      }
-    </style>
-    <section>
-      <span>犀言語</span>
-      <span>高谷 誉</span>
-    </section>
-  footerTemplate: |-
-    <section>
-      <div>
-        <span class="pageNumber"></span>
-        / <span class="totalPages"></span>
-      </div>
-    </section>
----
-
 # 犀言語
 
 ## A　カプセルの章
@@ -200,6 +171,8 @@ pdf_options:
 風が吹いて、僕は気づいた。
 
 僕は、ただ彼らに僕の肉を与えるために、ここにやってきたのだ。
+
+<div class="page-break"></div>
 
 ## B　カワゲラの章
 
@@ -549,6 +522,8 @@ pdf_options:
 
 その子の名前はこのリストに載っていない。
 
+<div class="page-break"></div>
+
 ## C　ドブ蛇の章
 
 ### 1
@@ -689,6 +664,8 @@ pdf_options:
 
 みんなでまた夢を見よう。
 
+<div class="page-break"></div>
+
 ## D　星座の章
 
 ### 1
@@ -803,7 +780,9 @@ pdf_options:
 
 いつか、多分。いつか多分。いつか多分。
 
-### 引用
+<div class="page-break"></div>
+
+## 引用
 
 ### A
 
