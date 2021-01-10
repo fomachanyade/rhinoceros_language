@@ -1,7 +1,7 @@
 # rhinoceros_language/犀言語
 ## 上演のためのテキストです
 ### [詩](./edit/poem.md)
-### [インストラクション](./edit/poem.md)
+### [インストラクション](./edit/instruction.md)
 ## pdf作成
 github actionsでpdfに出力しています。npmのmd-to-pdfを使用。
 出力したpdfはartifactに保存されます。
